@@ -31,13 +31,15 @@ var quiz = [{
 
 //Click to begin timer
 $(".spurs-logo").on("click", function (){
+	$("#intro-copy").hide();
 	run();
-	audio.play();
-});
+	//audio.play();
 
-//List quiz questions
-$(".quiz").html("<ul>" + quiz.question[0,1,2,3,4] + "</ul>");
-$(".quiz").html("<li>" + quiz.choices + "</li>");
+	//List quiz questions
+	for (var i = 0; i < quiz.length; i++) {
+		$(".quiz").append("<ul class='list-group'>" + quiz[i].question +"<li class='list-group-item'>" + quiz[0].choices + "</li>" + "</ul>");
+	}
+});
 
 function run() {
       intervalId = setInterval(decreaseNum, 1000);
@@ -48,7 +50,7 @@ function run() {
 
       //  Once number hits zero...
       if (timer === 0) {
-        alert("Time is up!");
+        console.log("Time is up!");
         stop();
       }
 	}
