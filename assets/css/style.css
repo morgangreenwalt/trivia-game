@@ -1,3 +1,17 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Open-sans', sans-serif;
+}
+
+.jumbotron {
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+
 .intro {
 	text-align: center;
 }
@@ -18,4 +32,18 @@
 	margin: 0;
 	padding: 0;
 	display: block;
+}
+
+.quiz-end {
+	text-align: center;
+}
+
+.answers {
+	text-align: center;
+	font-size: 20px;
+}
+
+.submit {
+	text-align: center;
+	margin-top: 30px;
 }
