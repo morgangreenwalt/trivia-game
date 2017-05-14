@@ -16,8 +16,14 @@ p {
 	text-align: center;
 }
 
+.intro-copy {
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .questions {
-	font-size: 30px;
+	font-size: 26px;
 	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -46,4 +52,30 @@ p {
 .submit {
 	text-align: center;
 	margin-top: 30px;
+}
+
+.replay {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.backboard {
+	background-image: url("../images/backboard.png");
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 500px;
+    position: relative;
+    left: 250px;
+}
+
+.quiz-end {
+	position: absolute;
+    top: 85px;
+    left: 240px;
+}
+
+.answer-display {
+	position: absolute;
+    left: 585px;
+    bottom: 175px;
 }
