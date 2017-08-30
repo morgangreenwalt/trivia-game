@@ -1,81 +1,89 @@
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 p {
-	font-family: 'Open-sans', sans-serif;
+    font-family: 'Open-sans', sans-serif;
 }
 
 .jumbotron {
-	text-transform: uppercase;
-	letter-spacing: 2.5px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 
 .intro {
-	text-align: center;
+    text-align: center;
 }
 
 .intro-copy {
-	font-size: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .questions {
-	font-size: 26px;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 0;
     width: 100%
 }
 
 .choices {
-	font-size: 18px;
-	list-style-type: none;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	display: block;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.choices:hover {
+    background-color: yellow;
+    width: 200px;
 }
 
 .quiz-end {
-	text-align: center;
+    text-align: left;
 }
 
 .answers {
-	text-align: center;
-	font-size: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .submit {
-	text-align: center;
-	margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .replay {
-	text-align: center;
-	margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .backboard {
-	background-image: url("../images/backboard.png");
-	background-repeat: no-repeat;
-	text-align: center;
-	height: 500px;
+    background-image: url("../images/backboard.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
     position: relative;
     left: 250px;
 }
 
 .quiz-end {
-	position: absolute;
+    position: absolute;
     top: 85px;
     left: 240px;
 }
 
 .answer-display {
-	position: absolute;
+    position: absolute;
     left: 585px;
     bottom: 175px;
 }
